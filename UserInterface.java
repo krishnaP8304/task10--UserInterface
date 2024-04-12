@@ -38,7 +38,7 @@ public class UserInterface {
     }
 
     public static void main(String[] args) {
-        String fileName = "names.txt"; // Change this to your file path/name
+        String fileName = "names.txt"; 
         UserInterface ui = new UserInterface();
         String petName = ui.findPetName(fileName);
         if (!petName.isEmpty()) {
